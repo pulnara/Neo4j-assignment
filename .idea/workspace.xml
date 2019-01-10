@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="786d09ba-3e2a-461f-bb29-98fdfa4af14c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/Neo4j_homework.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene-store.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene.log.active" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene.log.v17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene.log.v18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene.log.v19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene.log.v20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene.log.v21" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene.log.v22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene.log.v23" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/Movie/_n.fdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/Movie/_n.fdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/Movie/_n.fnm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/Movie/_n.nvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/Movie/_n.nvm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/Movie/_n.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/Movie/_n_Lucene50_0.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/Movie/_n_Lucene50_0.pos" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/Movie/_n_Lucene50_0.tim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/Movie/_n_Lucene50_0.tip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/Movie/segments_8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/Person/_o.fdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/Person/_o.fdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/Person/_o.fnm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/Person/_o.nvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/Person/_o.nvm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/Person/_o.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/Person/_o_Lucene50_0.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/Person/_o_Lucene50_0.pos" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/Person/_o_Lucene50_0.tim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/Person/_o_Lucene50_0.tip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/Person/segments_8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/User/_1h.fdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/User/_1h.fdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/User/_1h.fnm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/User/_1h.nvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/User/_1h.nvm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/User/_1h.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/User/_1h_Lucene50_0.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/User/_1h_Lucene50_0.pos" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/User/_1h_Lucene50_0.tim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/User/_1h_Lucene50_0.tip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/User/segments_a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/__types__/_20.fdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/__types__/_20.fdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/__types__/_20.fnm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/__types__/_20.nvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/__types__/_20.nvm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/__types__/_20.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/__types__/_20_Lucene50_0.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/__types__/_20_Lucene50_0.pos" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/__types__/_20_Lucene50_0.tim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/__types__/_20_Lucene50_0.tip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/__types__/segments_b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/search/_10.fdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/search/_10.fdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/search/_10.fnm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/search/_10.nvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/search/_10.nvm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/search/_10.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/search/_10_Lucene50_0.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/search/_10_Lucene50_0.pos" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/search/_10_Lucene50_0.tim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/search/_10_Lucene50_0.tip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/node/search/segments_b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/relationship/__types__/_2d.fdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/relationship/__types__/_2d.fdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/relationship/__types__/_2d.fnm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/relationship/__types__/_2d.nvd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/relationship/__types__/_2d.nvm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/relationship/__types__/_2d.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/relationship/__types__/_2d_Lucene50_0.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/relationship/__types__/_2d_Lucene50_0.pos" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/relationship/__types__/_2d_Lucene50_0.tim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/relationship/__types__/_2d_Lucene50_0.tip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/index/lucene/relationship/__types__/segments_d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/logs/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/messages.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.counts.db.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.counts.db.b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.labelscanstore.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.labeltokenstore.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.labeltokenstore.db.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.labeltokenstore.db.names" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.labeltokenstore.db.names.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.nodestore.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.nodestore.db.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.nodestore.db.labels" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.nodestore.db.labels.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.propertystore.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.propertystore.db.arrays" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.propertystore.db.arrays.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.propertystore.db.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.propertystore.db.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.propertystore.db.index.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.propertystore.db.index.keys" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.propertystore.db.index.keys.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.propertystore.db.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.propertystore.db.strings.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.relationshipgroupstore.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.relationshipgroupstore.db.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.relationshipstore.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.relationshipstore.db.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.relationshiptypestore.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.relationshiptypestore.db.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.relationshiptypestore.db.names" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.relationshiptypestore.db.names.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.schemastore.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.schemastore.db.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.transaction.db.29" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/neostore.transaction.db.30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/1/1/_4.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/1/1/_4.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/1/1/_4.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/1/1/_5.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/1/1/_5.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/1/1/_5.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/1/1/segments_2v" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/1/1/write.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/1/failure-message" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/2/1/_0.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/2/1/_0.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/2/1/_0.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/2/1/_1.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/2/1/_1.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/2/1/_1.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/2/1/_2.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/2/1/_2.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/2/1/_2.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/2/1/segments_2u" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/2/1/write.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/2/failure-message" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/3/1/_6.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/3/1/_6.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/3/1/_6.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/3/1/_7.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/3/1/_7.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/3/1/_7.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/3/1/segments_2v" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/3/1/write.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/3/failure-message" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/4/1/_0.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/4/1/_0.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/4/1/_0.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/4/1/segments_2u" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/4/1/write.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/4/failure-message" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/8/1/_0.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/8/1/_0.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/8/1/_0.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/8/1/segments_2u" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/8/1/write.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/schema/index/lucene/8/failure-message" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/graph.db/store_lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/src/main/java/GraphDatabase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Neo4j_homework/src/main/java/Solution.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="2047926505">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GraphDatabase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../TO/Nurikabe" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/AMnichJPAPractice-master" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="21" />
+    <option name="y" value="23" />
+    <option name="width" value="1419" />
+    <option name="height" value="804" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Neo4j" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Neo4j" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Neo4j" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Neo4j" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547160363792" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="786d09ba-3e2a-461f-bb29-98fdfa4af14c" name="Default Changelist" comment="" />
+      <created>1547160344281</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547160344281</updated>
+      <workItem from="1547160345793" duration="49000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="49000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="21" y="23" width="1419" height="804" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24981844" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286517" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GraphDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
